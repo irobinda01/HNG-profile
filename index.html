@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+    <title>profile</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section-1">
+            <img src="./image/my pics2.jpg" data-testid="slackProfilePicture"/>
+            <div class="text-box">
+                <p>Slack Name: <span class="blod" data-testid="slackDisplayName">irobinda</span></p>
+                <p>Time of the day : <span class="blod" id="current-time" data-testid="currentTimeUTC"></span></p>
+                <p>Day of the week: <span class="blod" id="current-day" data-testid="currentDay"></span></p>
+                <p>Email: <span class="blod mail" data-testid="slackEmai">irobindachinonso@gmail.com</span></p>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="links">
+                <label for="links" class="links-heading" >My sponsors:</label>
+                <ul id="links">
+                    <li><a href="http://hng.tech/learn" data-testid="hngLink">HNG Platform</a></li>
+                    <li><a href="http://keyword.dog/" data-testid="keywordLink">keyword.dog</a></li>
+                    <li><a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">scrapeanyweb.site</a></li>
+                </ul>
+            </div>
+            <div class="goals">
+                <label for="goals" class="goals-heading">My goals in two years time:</label>
+                <ul id="goals">
+                    <li>To be a software engineer with the following stacks: JavaScript, ReactJS, NodeJS, ExpressJS, Python, and Django</li>
+                    <li>To build a fullstack software that solves a problem in the transportation industry</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>

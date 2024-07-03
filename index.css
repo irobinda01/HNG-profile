@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d4d4d4;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 1.1rem;
+}
+
+.container{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.section-1{
+    background-color: #acafb3;
+    margin: 2em 0;
+    padding: 2em 0.3em;
+    border-radius: 1em;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-box{
+    margin: 2em 0;
+}
+
+.blod{
+    font-weight: 900;
+}
+.mail{
+    font-size: 1rem;
+}
+
+.links{
+    margin: 2em 0;
+    background-color: #41b5b5;
+    padding: 1.5em 1em 2em;
+    border-radius: 1em;
+    color: white;
+}
+.links a {
+    color: white;
+    cursor: pointer;
+}
+.links a:hover{
+    color: #8f3985;
+}
+
+.goals{
+    margin: 2em 0;
+    background-color: #8f3985;
+    color: #5e97f6;
+    padding: 2em 0.6em;
+    border-radius: 1em;
+}
+
+.links-heading{
+    color: black;
+}
+.goals-heading {
+    color: #ee270c;
+}
+
+@media (min-width: 768px) {
+    .section-1{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+    }
+    .container img {
+        display: block;
+        margin: 0;
+    }
+}
+
+@media (min-width: 1280px){
+    .section-1{
+        width: 70%;
+        margin: 0 auto;
+        background-color: #acafb3;
+    }
+    .section-2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .goals{
+        width: 70%;
+        padding: 1.2em 2em 2em;
+    }
+    .links{
+        width: 25%;
+    }
+}
